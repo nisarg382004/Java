@@ -1,0 +1,13 @@
+class Characters {
+    public static void main(String[] args) {
+        System.out.println("Print A 10 times");
+        for (int i = 0; i < 10; i++) {
+            System.out.print('A');
+        }
+
+        System.out.println("\nPrint B 20 times"); // Added '\n' to move to the next line
+        for (int i = 0; i < 20; i++) { // Changed println to print to avoid printing B on new lines
+            System.out.print("B");
+        }
+    }
+}
